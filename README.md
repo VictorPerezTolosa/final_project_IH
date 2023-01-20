@@ -99,36 +99,36 @@ These are the libraries and models I used to predict which play they are going t
 
 * <h2>Conclusions</h2><br>
 
->To take a conclusion and choose the best performance of the models, which results should I look for?
->
->Obviously **accuracy** is super important because it's going to give us the good predictions, but in case of error, which error would I prefer to have?
->
->>Here we need a deep knowledge about the topic because one could say that both errors are the same, but the difference here is that if we put a defensive scheme on the field to defend the pass but they play a running play, we will have troubles to defend that, but we can stop them quite well anyway. In other case, if they play a passing play when we put on the field a defensive scheme to stop the run, it could be a disaster and probably an annotation against us.
->
->In conclusion, we have to focus on the **precision** since it's better to have a false negative than a false positive and we want to minimize false positive as much as we can.
->
->Another score we should pay attention for is the **fbeta half** because it pays more attention on the precision than the recall.
+To take a conclusion and choose the best performance of the models, which results should I look for?
 
->We have here three models with different results:
->
->>The **Random Forest Classifier** has an accuracy of 0.67, a precission of 0.4 and a fbeta half of 0.43 and there is almost no over-fitting.
->It can predict 20 True negatives, 9 false positives, 6 true positives and 4 false negatives. It's predicting 5 passing plays less than the groundtruth so we could struggle on those plays.
->
->>The **Gradient Boosting Classifier** has an accuracy of 0.79, a precission of 0.75 and a fbeta half of 0.58 but with a huge over-fitting of 20 points.
->It can predict 28 True negatives, 1 false positives, 3 true positives and 7 false negatives. It's predicting 6 passing plays more than the groundtruth so we could struggle a bit on those plays but less than with the RFC.
->
->>The **XGBoost Classifier** has an accuracy of 0.77, a precission of 0.6 and a fbeta half of 0.5 with just a subtle over-fitting of 4 points.
->It can predict 27 True negatives, 2 false positives, 3 true positives and 7 false negatives. It's predicting 5 passing plays more than the groundtruth so we could struggle a bit on those plays but less than with the RFC.
->
->Analyzing the above results, I will choose the **XGBoost Classifier** as the model with the best performance because although the GBC has better accuracy and prediction, it has a huge over-fitting. The results with the XGBoost are almost the same than with the GBC and the train and the test sets are balanced on top of that.
+Obviously **accuracy** is super important because it's going to give us the good predictions, but in case of error, which error would I prefer to have?
+
+Here we need a deep knowledge about the topic because one could say that both errors are the same, but the difference here is that if we put a defensive scheme on the field to defend the pass but they play a running play, we will have troubles to defend that, but we can stop them quite well anyway. In other case, if they play a passing play when we put on the field a defensive scheme to stop the run, it could be a disaster and probably an annotation against us.
+
+In conclusion, we have to focus on the **precision** since it's better to have a false negative than a false positive and we want to minimize false positive as much as we can.
+
+Another score we should pay attention for is the **fbeta half** because it pays more attention on the precision than the recall.
+
+We have here three models with different results:
+
+The **Random Forest Classifier** has an accuracy of 0.67, a precission of 0.4 and a fbeta half of 0.43 and there is almost no over-fitting.
+It can predict 20 True negatives, 9 false positives, 6 true positives and 4 false negatives. It's predicting 5 passing plays less than the groundtruth so we could struggle on those plays.
+
+The **Gradient Boosting Classifier** has an accuracy of 0.79, a precission of 0.75 and a fbeta half of 0.58 but with a huge over-fitting of 20 points.
+It can predict 28 True negatives, 1 false positives, 3 true positives and 7 false negatives. It's predicting 6 passing plays more than the groundtruth so we could struggle a bit on those plays but less than with the RFC.
+
+The **XGBoost Classifier** has an accuracy of 0.77, a precission of 0.6 and a fbeta half of 0.5 with just a subtle over-fitting of 4 points.
+It can predict 27 True negatives, 2 false positives, 3 true positives and 7 false negatives. It's predicting 5 passing plays more than the groundtruth so we could struggle a bit on those plays but less than with the RFC.
+
+Analyzing the above results, I will choose the **XGBoost Classifier** as the model with the best performance because although the GBC has better accuracy and prediction, it has a huge over-fitting. The results with the XGBoost are almost the same than with the GBC and the train and the test sets are balanced on top of that.
 <br>
 <br>
 
 * <h2>Table of contents</h2><br>
 
-* 1 Importing libraries and dependencies
-* 2 Import the dataset
-* 3 Data cleaning
+* 1 - Importing libraries and dependencies
+* 2 - Import the dataset
+* 3 - Data cleaning
 * 4 Exploratory Data Analysis
 * 5 Visualizations of the target variable
     - 5.1 Visualization of the target variable with some of the explanative variables

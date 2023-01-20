@@ -129,20 +129,20 @@ Analyzing the above results, I will choose the **XGBoost Classifier** as the mod
 * 1 - Importing libraries and dependencies
 * 2 - Import the dataset
 * 3 - Data cleaning
-* 4 Exploratory Data Analysis
-* 5 Visualizations of the target variable
-    - 5.1 Visualization of the target variable with some of the explanative variables
-* 6 Preprocessing
-    - 6.1 Encoding the features
-    - 6.2 Define the target and explanative variables
-    - 6.3 Train Test Split
-* 7 Modeling a Random Forest Classifier using GridSearchCV
-    - 7.1 Evaluation of the Random Forest Classifier
-* 8 Modeling a Gradient Boosting Classifier using GridSearchCV
-    - 8.1 Evaluation of the Gradient Boosting Classifier
-* 9 Modeling a XGboost Classifier using GridSearchCV
-    - 9.1 Evaluation of the XGboost Classifier
-* 10 Conclusions
-* 11 Saving the model to deploy it
+* 4 - Exploratory Data Analysis
+* 5 - Visualizations of the target variable
+    - 5.1 - Visualization of the target variable with some of the explanative variables
+* 6 - Preprocessing
+    - 6.1 - Encoding the features
+    - 6.2 - Define the target and explanative variables
+    - 6.3 - Train Test Split
+* 7 - Modeling a Random Forest Classifier using GridSearchCV
+    - 7.1 - Evaluation of the Random Forest Classifier
+* 8 - Modeling a Gradient Boosting Classifier using GridSearchCV
+    - 8.1 - Evaluation of the Gradient Boosting Classifier
+* 9 - Modeling a XGboost Classifier using GridSearchCV
+    - 9.1 - Evaluation of the XGboost Classifier
+* 10 - Conclusions
+* 11 - Saving the model to deploy it
 <br>
 <br>

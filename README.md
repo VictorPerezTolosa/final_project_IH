@@ -10,7 +10,7 @@ Welcome to my Ironhack Data Analyst Bootcamp Final Project (cohort july'22 part 
 
 * <h2>What can you see here?</h2><br>
 
-In this repo you will find a Jupyter Notebook with the implementation of three Machine Learning models (Random Forest Classifier, Gadient Boosting Classifier and XGBoost Classifier) with a presentation on [Canva](https://www.canva.com/design/DAFYG6At7Ko/TpFLLTKn64EbB8CAxYaEDg/view?utm_content=DAFYG6At7Ko&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu) where you can find a link to the [Streamlit app](https://victorpereztolosa-final-project-ih-predict-the-play-app-xo6ck7.streamlit.app/) and to the [Tableau Dashboard](https://public.tableau.com/views/finalproject_16739118765190/IHFinalProjectDashboard?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_link) I made.
+In this repo, you will find a Jupyter Notebook with the implementation of three Machine Learning models (Random Forest Classifier, Gradient Boosting Classifier and XGBoost Classifier) with a presentation on [Canva](https://www.canva.com/design/DAFYG6At7Ko/TpFLLTKn64EbB8CAxYaEDg/view?utm_content=DAFYG6At7Ko&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu) where you can find a link to the [Streamlit app](https://victorpereztolosa-final-project-ih-predict-the-play-app-xo6ck7.streamlit.app/) and to the [Tableau Dashboard](https://public.tableau.com/views/finalproject_16739118765190/IHFinalProjectDashboard?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_link) I made.
 <br>
 <br>
 

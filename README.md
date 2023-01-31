@@ -4,7 +4,7 @@
 
 
 <br>
-Welcome to my Ironhack Data Analyst Bootcamp Final Project (cohort july'22 part time), I hope you enjoy reading it as much as I did doing it.
+Welcome to my Ironhack Data Analyst Bootcamp Final Project (cohort july'22 - January'23 part time), I hope you enjoy reading it as much as I did doing it.
 <br>
 <br>
 
